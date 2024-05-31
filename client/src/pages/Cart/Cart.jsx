@@ -67,7 +67,7 @@ const Cart = () => {
                 <p>Delivery charge</p>
                 <p>
                   {String.fromCharCode(8377)}
-                  {getTotalCartAmount() + 75}
+                  {75}
                 </p>
               </div>
               <hr />
@@ -75,7 +75,7 @@ const Cart = () => {
                 <p>Total</p>
                 <p>
                   {String.fromCharCode(8377)}
-                  {Math.round(getTotalCartAmount() * (115 / 100))}
+                  {getTotalCartAmount() + 75}
                 </p>
               </div>
             </div>
