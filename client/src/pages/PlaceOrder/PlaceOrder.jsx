@@ -159,7 +159,7 @@ const PlaceOrder = () => {
               <p>Delivery charge</p>
               <p>
                 {String.fromCharCode(8377)}
-                {Math.round((15 / 100) * getTotalCartAmount())}
+                {75}
               </p>
             </div>
             <hr />
@@ -167,7 +167,7 @@ const PlaceOrder = () => {
               <p>Total</p>
               <p>
                 {String.fromCharCode(8377)}
-                {Math.round(getTotalCartAmount() * (115 / 100))}
+                {getTotalCartAmount() + 75}
               </p>
             </div>
           </div>

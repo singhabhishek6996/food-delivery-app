@@ -31,12 +31,12 @@ const Cart = () => {
                     <p>{item.name}</p>
                     <p>
                       {String.fromCharCode(8377)}
-                      {item.price * 35}
+                      {item.price}
                     </p>
                     <p>{cartItems[item._id]}</p>
                     <p>
                       {String.fromCharCode(8377)}
-                      {item.price * 35 * cartItems[item._id]}
+                      {item.price * cartItems[item._id]}
                     </p>
                     <p
                       onClick={() => removeFromCart(item._id)}
@@ -67,7 +67,7 @@ const Cart = () => {
                 <p>Delivery charge</p>
                 <p>
                   {String.fromCharCode(8377)}
-                  {Math.round((15 / 100) * getTotalCartAmount())}
+                  {getTotalCartAmount() + 75}
                 </p>
               </div>
               <hr />
