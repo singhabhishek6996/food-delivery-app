@@ -33,7 +33,6 @@ Urban Eats is a food delivery website built using the MERN stack (MongoDB, Expre
 - **Database**: MongoDB
 - **Payment Gateway**: Stripe
 - **Authentication**: JSON Web Tokens (JWT)
-- **State Management**: Redux
 - **File Uploads**: Multer
 - **ODM**: Mongoose
 - **Middleware**: CORS
